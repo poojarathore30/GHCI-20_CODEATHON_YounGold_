@@ -22,7 +22,7 @@ If none of the condition is suitable, someone from whole set of users would stil
 ## Setup
 #### 1. Clone this repo
 ```
-$ git clone (https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_.git)
+$ git clone https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_.git
 $ cd YounGold
 ```
 
