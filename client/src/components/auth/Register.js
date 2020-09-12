@@ -55,7 +55,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   </p>
 
  
-  <p>Press CTRL and click above button to select multiple options at once.</p>
+  
      
 
   <form className="form" onSubmit={onSubmit}>
@@ -185,6 +185,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
               <option value="social_networking">social_networking</option>
               <option value="animes">animes</option>
           </select>
+          <p>Press CTRL and click above button to select multiple options at once.</p>
           <small className="form-text">
             Give us an idea of your interests
           </small>
