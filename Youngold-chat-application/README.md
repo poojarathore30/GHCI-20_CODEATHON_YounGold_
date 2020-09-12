@@ -1,5 +1,6 @@
 # Prerequisite 
-## Packages must be installed for deployment on local system 
+## Project Local Setup
+
 ### For Back end part using Youngold-chat-application folder
 
 ```bash
