@@ -1,5 +1,5 @@
 {
-  "name": "linkedin-lite",
+  "name": "youngold",
   "version": "1.0.0",
   "description": "Social networking for developers",
   "main": "server.js",
@@ -10,16 +10,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Puja7629/LinkedIn_Lite_FULL_STACK_Project.git"
-  },
-  "author": "Puja",
+  "author": "Pooja Rathore",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Puja7629/LinkedIn_Lite_FULL_STACK_Project/issues"
-  },
-  "homepage": "https://github.com/Puja7629/LinkedIn_Lite_FULL_STACK_Project#readme",
+  
   "dependencies": {
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",

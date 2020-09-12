@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #1667e0;
+  --primary-color: #3a3d3d;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -58,10 +58,8 @@ img {
 }
 
 .lead {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  margin-top: 0rem;
-  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .text-center {
@@ -257,8 +255,7 @@ img {
   width: 100%;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border:none;
- border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 .form input[type='submit'],
@@ -306,31 +303,27 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2rem;
+  padding: 0 rem;
   position: fixed;
   z-index: 1;
   width: 100%;
   top: 0;
-  box-shadow:  0px 10px 30px rgba(57, 56, 61, 0.2);
-  background-color: rgba(255, 255, 255, 0.849);
-  }
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+}
 
 .navbar ul {
   display: flex;
 }
 
 .navbar a {
-  color: #3044f7;
-  padding: 0.3rem;
+  color: #fff;
+  padding: 0.45rem;
   margin: 0 0.25rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-
 }
 
 .navbar a:hover {
-  color:rgb(34, 34, 34);
-  
+  color: rgb(139, 219, 186) ;
 }
 
 .navbar .welcome span {
@@ -340,16 +333,10 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url('./img/showcase.jpg') no-repeat center center/cover;
+  background: url('./img/new.jpeg') no-repeat center center/cover;
   height: 100vh;
 }
-.logo-img{
-  margin: 0;
-  padding: 0;
-   border-radius: 5%;
-  width: 4rem;
-  height: 3.5rem;
-}
+
 .landing-inner {
   color: #fff;
   height: 100%;
@@ -387,9 +374,9 @@ button {
 .profile-top {
   grid-area: top;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
 }
 
@@ -500,30 +487,6 @@ button {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
-.form-sm{
-  padding: 2rem 8rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Mobile Styles */
 @media (max-width: 700px) {
@@ -543,12 +506,9 @@ button {
   .large {
     font-size: 2rem;
   }
-  .form-sm{
-    padding: 1rem
-  }
+
   .lead {
-    font-size: 2rem;
-    margin-top: 1rem;
+    font-size: 1rem;
   }
 
   /* Navbar */
@@ -587,9 +547,6 @@ button {
     width: 200px;
     margin: auto;
   }
-.profile-top{
-  flex-direction: column;
-}
   .profile-grid {
     grid-template-areas:
       'top'
@@ -617,6 +574,8 @@ button {
     padding: 0.3rem 0.4rem;
   }
 }
+
+/*--------------------------------*/
 .login-div{
   display: flex;
   margin-top: 0;
@@ -643,22 +602,16 @@ button {
   display: block;
 
 }
-.dash-buttons{
-  display: flex;
-  justify-content: space-between;
+.logo-img{
+  margin: 0;
+  padding: 0;
+   border-radius: 5%;
+  width: 4rem;
+  height: 3.5rem;
 }
-.dash-buttons .btn{
-  text-align: center;
-padding:3rem 1rem;
-border-radius: 50%;
-}
-.dash-buttons .btn:hover{
-  background-color: white;
-  box-shadow:  0px 10px 30px rgba(57, 56, 61, 0.2);
-}
-.lead-sm{
-  font-size: 2rem;
+.lead {
+  font-size: 3rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   text-align: center;
 }

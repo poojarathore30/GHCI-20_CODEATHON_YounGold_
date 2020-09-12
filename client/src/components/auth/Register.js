@@ -5,8 +5,9 @@ import { setAlert } from '../../actions/alert';
 import { register } from '../../actions/auth';
 import PropTypes from 'prop-types';
 import form_img from "../../img/welcome.PNG";
-import img from "../../img/LOGO.png";
+import img from "../../img/YG.PNG";
 const Register = ({ setAlert, register, isAuthenticated }) => {
+ 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -15,7 +16,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     age:'',
     domain:'',
     purpose:'',
-    hobbies:''
+    hobbies:[]
   });
 
   const { name, email, password, password2,age ,domain,purpose,hobbies} = formData;
@@ -23,6 +24,13 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   const onChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
+    const onClick = (e) =>{
+      hobbies.push(e.target.value)
+      console.log(hobbies);
+      setFormData({ ...formData, [e.target.name]:hobbies.push(e.target.value)  });
+    }
+   
+ 
   const onSubmit = async (e) => {
     e.preventDefault();
     if (password !== password2) {
@@ -45,6 +53,11 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     <p className="lead">
    Sign-Up 
   </p>
+
+ 
+  
+     
+
   <form className="form" onSubmit={onSubmit}>
   <div className="form-group">
     <input
@@ -100,29 +113,45 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 <div className="form-group">
           <select name="domain" value={domain} onChange={onChange}>
             <option>* Select your Professional Domain</option>
-            <option value="Engineer">Engineer</option>
-            <option value="Psychiatrist">Psychiatrist</option>
-            <option value="Doctor">Doctor</option>
-            <option value="Farming">Farming</option>
-            <option value="Fishing">Fishing</option>
-            <option value="Administrative services">Administrative services</option>
-            <option value="Student or Learning">Student or Learning</option>
-            <option value="Teacher">Teacher</option>
-            <option value="Sales/Marketing">Sales/Marketing</option>
-            <option value="Military">Miitary</option>
-            <option value="Ministral activiies">Ministral activiies</option>
-            <option value="HR">HR</option>
-            <option value="lawyer/judge">lawyer/judge</option>
-            <option value="Business">Business</option>
-            <option value="N/A">N/A</option>
+            <option value="computer_engineer/it">Computer Engineer/IT</option>
+              <option value="mechanical_engineer">Mechanical Engineer</option>
+              <option value="civil_engineer/construction">
+                Civil Engineer/Construction
+              </option>
+              <option value="electrical_engineer">Electrical Engineer</option>
+              <option value="electrical_&_electronics_engineer">
+                Electrical and Electronics engineer
+              </option>
+              <option value="ec_engineer">EC engineer</option>
+              <option value="military">Farming</option>
+              <option value="fishing">Fishing</option>
+              <option value="n/a">N/A</option>
+              <option value="chef">Chef</option>
+              <option value="lawyer/judge">Lawyer/Judge</option>
+              <option value="military">Military</option>
+              <option value="ministerial_activities">
+                Ministerial Activities
+              </option>
+              <option value="administrative_services">
+                Administrative Services
+              </option>
+              <option value="other_student/profession">
+                Other Student/Profession
+              </option>
+              <option value="engineering_manager">Engineering Manager</option>
+              <option value="hr">HR</option>
+              <option value="psychiatrist">Psychiatrist</option>
+              <option value="architect">Architect</option>
+              <option value="sales/marketing">Sales/Marketing</option>
+              <option value="doctor">Doctor</option>
+              <option value="teacher">Teacher</option>
           </select>
           <small className="form-text">
             Give us an idea of your career Domain
           </small>
         </div>
-
         <div className="form-group">
-        <select name="purpose" value={purpose} onChange={onChange}>
+        <select multiple name="purpose" value={purpose} onChange={onChange}>
           <option>* Select Purpose ?</option>
           <option value="Get help">Get help</option>
           <option value="Give help">Give help</option>
@@ -131,22 +160,32 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
       </div>
  
       <div className="form-group">
-          <select name="hobbies" value={hobbies} onChange={onChange}>
+          <select name="hobbies" value={hobbies} multiple onClick={onClick} >
             <option>* Select your Hobbies</option>
-            <option value="Acting">Acting</option>
-            <option value="Animal Care">Animal Care</option>
-            <option value="Social networking">Social networking</option>
-            <option value="Motivating">Motivating</option>
-            <option value="Travelling">Travelling</option>
-            <option value="Computer Programming">Computer Programming</option>
-            <option value="Singing">Singing</option>
-            <option value="Dancing">Dancing</option>
-            <option value="Teacher">Teacher</option>
-            <option value="Table Tennis">Table Tennis</option>
-            <option value="Badminton">Badminton</option>
-            <option value="Cricket">Cricket</option>
-            <option value="Watching Movies">Watching Movies</option>
+            <option value="acting">acting</option>
+              <option value="animal_care">animal_care</option>
+              <option value="motivating">motivating</option>
+              <option value="sports">sports</option>
+              <option value="computer_programming">computer_programming</option>
+              <option value="video_games">video_games</option>
+              <option value="travel">travel</option>
+              <option value="instrument">instrument</option>
+              <option value="singingr">singing</option>
+              <option value="dancing">dancing</option>
+              <option value="movies">movies</option>
+              <option value="listening_songs">listening_songs</option>
+              <option value="badminton">badminton</option>
+              <option value="table_tennis">Table Tennis</option>
+              <option value="cooking">cooking</option>
+              <option value="gardening">gardening</option>
+              <option value="meditation/yoga">meditation/yoga</option>
+              <option value="reading">reading</option>
+              <option value="watching_web_series">watching_web_series</option>
+              <option value="watching_tv">watching_tv</option>
+              <option value="social_networking">social_networking</option>
+              <option value="animes">animes</option>
           </select>
+          <p>Press CTRL and click above button to select multiple options at once.</p>
           <small className="form-text">
             Give us an idea of your interests
           </small>

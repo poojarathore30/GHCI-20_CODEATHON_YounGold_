@@ -30,14 +30,14 @@ const AddEducation = ({ addEducation, history }) => {
 
   return (
     <Fragment>
-      <h1 className=" text-primary">Add Your Education</h1>
-      <p className="lead-sm">
+      <h1 className="large text-primary">Add Your Education</h1>
+      <p className="lead">
         <i className="fas fa-code-branch" /> Add any school or bootcamp that you
         have attended
       </p>
       <small>* = required field</small>
       <form
-        className="form form-sm"
+        className="form"
         onSubmit={e => {
           e.preventDefault();
           addEducation(formData, history);
@@ -46,7 +46,7 @@ const AddEducation = ({ addEducation, history }) => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="School or Bootcamp *"
+            placeholder="* School or Bootcamp"
             name="school"
             value={school}
             onChange={onChange}
@@ -56,7 +56,7 @@ const AddEducation = ({ addEducation, history }) => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="Degree or Certificate *"
+            placeholder="* Degree or Certificate"
             name="degree"
             value={degree}
             onChange={onChange}
