@@ -74,9 +74,13 @@ Once merged you can push to heroku as above and your site will rebuild and be up
 
 You're good to go :)
 
-## Demo of the Project :rocket: :100:
+> [Link to my deployed chat-App can be found here. :sunglasses:	](https://youngold-chat.herokuapp.com/)
 
-> [Link to my deployed project can be found here. :sunglasses:	](https://youngold-chat.herokuapp.com/)
+## Demo of the Chat-App :rocket: :100:
+![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/chat/a.PNG)
+![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/chat/c.PNG)
+![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/chat/b.PNG)
+
 
 
 
