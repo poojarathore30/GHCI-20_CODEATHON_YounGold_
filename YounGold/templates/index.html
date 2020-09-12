@@ -1,0 +1,176 @@
+{% extends "base.html" %} {% block content %}
+
+
+  <section style="margin: 1rem ; padding: 1rem;" class="container-fluid row">
+      <div class="col-12 col-md-6">
+        <form
+          class="form"
+          id="upload-file"
+          method="post"
+          enctype="multipart/form-data"
+          style="margin: 25px"
+        >
+          <div class="form-group" tabindex="1">
+            <label for="Domain-select">
+              To whom you want to connect
+            </label>
+            <select class="form-control" name="Domain" id="Domain-select">
+              <option value="" disabled selected>
+                --Please choose an option--
+              </option>
+              <option value="computer_engineer/it">Computer Engineer/IT</option>
+              <option value="mechanical_engineer">Mechanical Engineer</option>
+              <option value="civil_engineer/construction">
+                Civil Engineer/Construction
+              </option>
+              <option value="electrical_engineer">Electrical Engineer</option>
+              <option value="electrical_&_electronics_engineer">
+                Electrical and Electronics engineer
+              </option>
+              <option value="ec_engineer">EC engineer</option>
+              <option value="military">Farming</option>
+              <option value="fishing">Fishing</option>
+              <option value="n/a">N/A</option>
+              <option value="chef">Chef</option>
+              <option value="lawyer/judge">Lawyer/Judge</option>
+              <option value="military">Military</option>
+              <option value="ministerial_activities">
+                Ministerial Activities
+              </option>
+              <option value="administrative_services">
+                Administrative Services
+              </option>
+              <option value="other_student/profession">
+                Other Student/Profession
+              </option>
+              <option value="engineering_manager">Engineering Manager</option>
+              <option value="hr">HR</option>
+              <option value="psychiatrist">Psychiatrist</option>
+              <option value="architect">Architect</option>
+              <option value="sales/marketing">Sales/Marketing</option>
+              <option value="doctor">Doctor</option>
+              <option value="teacher">Teacher</option>
+            </select>
+          </div>
+
+          <div class="form-group" tabindex="2">
+            <label for="Hobbies-select">
+              Choose your Hobbies
+            </label>
+            <select
+              class="form-control mdb-select md-form"
+              name="Hobbies"
+              id="Hobbies-select"
+              size="3"
+              multiple
+            >
+              <option value="" disabled selected>
+                --Please choose an option--
+              </option>
+              <option value="acting">acting</option>
+              <option value="animal_care">animal_care</option>
+              <option value="motivating">motivating</option>
+              <option value="sports">sports</option>
+              <option value="computer_programming">computer_programming</option>
+              <option value="video_games">video_games</option>
+              <option value="travel">travel</option>
+              <option value="instrument">instrument</option>
+              <option value="singingr">singing</option>
+              <option value="dancing">dancing</option>
+              <option value="movies">movies</option>
+              <option value="listening_songs">listening_songs</option>
+              <option value="badminton">badminton</option>
+              <option value="table_tennis">Table Tennis</option>
+              <option value="cooking">cooking</option>
+              <option value="gardening">gardening</option>
+              <option value="meditation/yoga">meditation/yoga</option>
+              <option value="reading">reading</option>
+              <option value="watching_web_series">watching_web_series</option>
+              <option value="watching_tv">watching_tv</option>
+              <option value="social_networking">social_networking</option>
+              <option value="animes">animes</option>
+            </select>
+          </div>
+
+          <div class="form-group" tabindex="3">
+            <label for="Purpose-select">
+              Choose your purpose:
+            </label>
+            <select class="form-control" name="Purpose" id="Purpose-select">
+              <option value="" disabled selected>
+                --Please choose an option--
+              </option>
+              <option value="Help">Help</option>
+              <option value="Get Help">Get Help</option>
+              <option value="Both">Both</option>
+            </select>
+          </div>
+
+          <div class="form-group" tabindex="4">
+            <label for="Age"> Your Age </label>
+            <input
+              class="form-control"
+              type="number"
+              id="Age"
+              name="age"
+              value=""
+              min="18"
+              max="100"
+              size="5"
+            />
+          </div>
+
+          <button type="button" id="btn-predict" class="btn btn-primary">Recommend!</button>
+          <div class="loader" style="display:none;"></div>
+        </form>
+      </div>
+
+      <div class="col-12 col-md-6" style = "height: 800px" >
+        <div class="row" id = "shooww" style = "height: 20%;">
+          <h3>Profile - 1</h3>
+          <textarea
+            name=""
+            class="result"
+            style="width: 100%; height: 50%"
+          ></textarea>
+          <button
+              type="button"
+              class="btn  mt-2 mb-2 ml-1 btn-primary open-snippet waves-effect waves-light"
+              id="Profile1"
+            >
+            View Profile!
+          </button>
+        </div>
+        <div class="row" id = "shooww1"  style = "height: 20%;margin-top: 30px;">
+            <h3>Profile - 2</h3>
+            <textarea
+              name=""
+              class="resultt"
+              style="width: 100%; height: 50%"
+            ></textarea>
+            <button
+              type="button"
+              class="btn  mt-2 mb-2 ml-1 btn-primary open-snippet waves-effect waves-light"
+              id="Profile2"
+            >
+              View Profile!
+            </button>
+          </div>
+          <div class="row" id = "shooww2"  style = "height: 20%;margin-top: 30px;">
+            <h3>Profile - 3</h3>
+            <textarea
+              name=""
+              class="resulttt"
+              style="width: 100%; height: 50%"
+            ></textarea>
+            <button
+              type="button"
+              class="btn btn-primary mb-2 mt-2 ml-1 open-snippet waves-effect waves-light"
+              id="Profile3"
+            >
+              View Profile!
+            </button>
+          </div>
+      </div>
+    </section>
+{% endblock %}
