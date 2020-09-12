@@ -28,11 +28,8 @@ router.post(
       return res.status(400).json({ errors: errors.array() });
     }
 
-<<<<<<< HEAD
-    const { name, email, password } = req.body;
-=======
     const { name, email, password,domain,age,purpose,hobbies } = req.body;
->>>>>>> 6dc0b19be49ecf2c522e96d36b757f2fb2249e29
+
 
     try {
       let user = await User.findOne({ email });
@@ -56,15 +53,13 @@ router.post(
         name,
         email,
         avatar,
-<<<<<<< HEAD
-        password
-=======
+
         password,
         domain,
         age,
         purpose,
         hobbies
->>>>>>> 6dc0b19be49ecf2c522e96d36b757f2fb2249e29
+
       });
 
       const salt = await bcrypt.genSalt(10);
