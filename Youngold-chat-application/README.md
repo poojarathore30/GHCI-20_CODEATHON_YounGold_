@@ -59,7 +59,7 @@ cd client-user
 ```
 npm run build
 ```
-Now set up heroku remote and push code to the remote branch
+Now set up heroku remote and push code to the remote branch, Inside Root folder type the following commands
 ```
 git init
 git init
@@ -76,9 +76,7 @@ You're good to go :)
 
 ## Demo of the Project :rocket: :100:
 
-
-
-[Link to my deployed project can be found here. :sunglasses:	](https://linkedin-lite.herokuapp.com/)
+> [Link to my deployed project can be found here. :sunglasses:	](https://youngold-chat.herokuapp.com/)
 
 
 
