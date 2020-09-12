@@ -171,6 +171,7 @@ npm run dev
 
 This will run both your server and development environment too.
 and you're good to go :)
+> [Link To the Deployed Application](https://youngold-app.herokuapp.com/)
 
 ## Demo of the Project :rocket: :100:
 ![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/aa.PNG)
