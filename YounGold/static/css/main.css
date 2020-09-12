@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+
+$all: all .5s ease;
+$sai: 'Saira Semi Condensed', sans-serif;
+
+*{
+    @include tf($tf-fm: $sai);
+    @include other($ot-tsi: $all)
+}
+
+body{
+}
+
+.container{
+    @include bm(100%, 100%, $bm-pd: 0 16px, $bm-dp: $fl);
+    @include flex-center($rnw)
+}
+
+form{
+    @include bm(400px, $bm-dp: $fl);
+    @include flex-center($cw);
+        div, label, input, textarea{
+            @include bm(100%)
+        }
+}
+
+.field:nth-of-type(2){
+    @include bm($bm-mg: 16px 0)
+}
+
+label, input, textarea{
+    @include bm($bm-pd: 8px)
+}
+
+label, [placeholder]{
+    @include tf(#555)
+}
+
+label i{
+    @include bm($bm-mg: 0 10px 0 0)
+}
+
+.field:focus-within label{
+    @include tf(#000, $tf-ls: 2px)
+}
+
+input, textarea{
+    
+    border: none;
+    @include other($ot-br: 4px, $ot-bs: $o-b);
+        &:focus{
+            @include other($ot-bs: none)
+        }
+} 
+
+textarea{
+    resize: none;
+        &::-webkit-scrollbar{
+            @include bm(0)
+        }
+}
+
+button{
+    background: #2f4ad0;
+    @include bm($bm-pd: 8px 16px, $bm-mg: 16px 0 50px 0);
+   
+    border: none;
+    @include other($ot-br: 4px, $ot-cr: pointer, $ot-bs: $o-b);
+        &:hover{
+            @include tf($tf-ls: 2px);
+            @include other($ot-bs: none)
+        }
+}*/
+ /*------------------------------------------------------------*/
+ 
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 40px;
+  /*height: 300px;*/
+   /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.container1 {
+  display: flex;
+  flex-direction:column;
+}
+
+section{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
