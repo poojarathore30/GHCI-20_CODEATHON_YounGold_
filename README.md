@@ -176,9 +176,7 @@ and you're good to go :)
 
 
 
-[Link to my deployed project can be found here. :sunglasses:	](https://linkedin-lite.herokuapp.com/)
 
 
 
-![Project Image](Demo.png)
 Cheers! :rocket: :100:	

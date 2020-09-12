@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import im from "./noProfile.png"
 
 const ProfileTop = ({
   profile: {
@@ -13,8 +14,7 @@ const ProfileTop = ({
 }) => {
   return (
     <div className='profile-top bg-primary p-2'>
-      <img className='round-img my-1' src={avatar} alt='' />
-      <div className='about-section'>
+      <img className='round-img my-1' src={avatar?avatar:im} alt='' />
       <h1 className='large'>{name}</h1>
       <p className='lead'>
         {status} {company && <span> at {company}</span>}
@@ -51,7 +51,6 @@ const ProfileTop = ({
             <i className='fab fa-instagram fa-2x' />
           </a>
         )}
-      </div>
       </div>
     </div>
   );

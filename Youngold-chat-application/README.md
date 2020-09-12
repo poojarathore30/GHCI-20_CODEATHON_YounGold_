@@ -1,0 +1,83 @@
+# Prerequisite 
+## Project Local Setup
+
+### For Back end part using Youngold-chat-application folder
+
+```bash
+npm init
+```
+
+### Install server dependencies
+```bash
+npm install
+```
+### For Front end part using react in client-user folder
+
+Go to the client-user folder by,
+
+```bash
+cd client
+```
+
+Create a react app using this cmd,
+
+```bash
+npx create-react-app client
+```
+### Install Client dependencies
+
+```bash
+npm install
+```
+After that, try to open the development server on localhost:3000 (Default React Server)
+
+```bash
+npm start
+```
+Hit Ctrl+C to stop the application
+
+# Quick Start :atom_symbol:
+
+### Replace the following code in index.js
+
+```
+const app = express();
+const server = http.createServer(app);
+```
+## with
+```
+const http = require('http');
+const app = express();
+const server=require('http').Server(app);
+```
+
+### Deploy to Heroku :cloud:	
+Before Deploying Create static Build in client-user by typing the following command in terminal
+```
+cd client-user
+```
+```
+npm run build
+```
+Now set up heroku remote and push code to the remote branch, Inside Root folder type the following commands
+```
+git init
+git init
+heroku git:remote -a <remote name>
+git add .
+git commit -am "<commit message>"
+git push heroku master
+```
+Once merged you can push to heroku as above and your site will rebuild and be updated ready.
+
+---
+
+You're good to go :)
+
+## Demo of the Project :rocket: :100:
+
+> [Link to my deployed project can be found here. :sunglasses:	](https://youngold-chat.herokuapp.com/)
+
+
+
+

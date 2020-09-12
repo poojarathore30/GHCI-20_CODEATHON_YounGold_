@@ -8,7 +8,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
     <li>
-    <Link to='#'> <i class="fa fa-lg fa-envelope-open" />Chat</Link>
+    <a href='https://youngold-chat.herokuapp.com/' target="_blank"> <i class="fa fa-lg fa-envelope-open" />Chat</a>
   </li>
       <li>
         <Link to='/profiles'>Community</Link>
@@ -34,7 +34,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const guestLinks = (
     <ul>
     <li>
-    <Link to='/posts'>Feeds</Link>
+    <Link to='/profiles'>Community</Link>
   </li>
       <li>
         <Link to='/register'>Register</Link>

@@ -22,14 +22,14 @@ const AddExperience = ({ addExperience, history }) => {
 
   return (
     <Fragment>
-      <h1 className="text-primary">Add An Experience</h1>
-      <p className="lead-sm">
+      <h1 className="large text-primary">Add An Experience</h1>
+      <p className="lead">
         <i className="fas fa-code-branch" /> Add any developer/programming
         positions that you have had in the past
       </p>
       <small>* = required field</small>
       <form
-        className="form form-sm"
+        className="form"
         onSubmit={e => {
           e.preventDefault();
           addExperience(formData, history);
@@ -38,7 +38,7 @@ const AddExperience = ({ addExperience, history }) => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="Job Title *"
+            placeholder="* Job Title"
             name="title"
             value={title}
             onChange={onChange}
@@ -48,7 +48,7 @@ const AddExperience = ({ addExperience, history }) => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="Company *"
+            placeholder="* Company"
             name="company"
             value={company}
             onChange={onChange}

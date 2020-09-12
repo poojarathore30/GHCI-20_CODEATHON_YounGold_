@@ -18,28 +18,22 @@ const Dashboard = ({
   }, [getCurrentProfile]);
 
   return (
-    <div className='profile-page'>
     <Fragment>
-    <div className='profile-card'>
-    
+      <h1 className="large text-primary">Dashboard</h1>
       <p className="lead">
         <i className="fas fa-user" /> Welcome {user && user.name}
       </p>
       {profile !== null ? (
         <Fragment>
           <DashboardActions />
-          
-          <Education education={profile.education} />
-         
           <Experience experience={profile.experience} />
-         
-        
+          <Education education={profile.education} />
+
           <div className="my-2">
             <button className="btn btn-danger" onClick={() => deleteAccount()}>
-            <i class="fas fa-trash-alt"></i> Delete My Account
+              <i className="fas fa-user-minus" /> Delete My Account
             </button>
           </div>
-         
         </Fragment>
       ) : (
         <Fragment>
@@ -49,9 +43,8 @@ const Dashboard = ({
           </Link>
         </Fragment>
       )}
-      </div>
     </Fragment>
-    </div> );
+  );
 };
 
 Dashboard.propTypes = {

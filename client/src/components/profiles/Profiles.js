@@ -16,8 +16,10 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
         <Spinner />
       ) : (
         <Fragment>
-          <p className='lead-sm'>
-            <i className='fab fa-connectdevelop' /> Explore YounGold community
+          <h1 className='large text-primary'>Community</h1>
+          <a className='recommend'  href='https://youngold.herokuapp.com/'><button className='btn btn-primary'>Recommend Profiles</button></a>
+          <p className='lead'>
+            <i className='fab fa-connectdevelop' /> Browse and Make Connection to seek help 
           </p>
           <div className='profiles'>
             {profiles.length > 0 ? (

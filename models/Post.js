@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-
+//schema
 const PostSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId
