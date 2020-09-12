@@ -12,9 +12,11 @@ The list of features (Priority-wise) based on which recommendations is as follow
   <li> Domain - A person from same domain will be recommended </li>
   <li> Hobbies - A person with more of the matching hobbies will be recommended. </li>
   </ol>
-If none of the condition is suitable, someone from whole set of users would still be recommended with a pop-up that all features might not match, they can further view profile to know the person better before connecting.<br></br>
+If none of the condition is suitable, someone from whole set of users would still be recommended with a pop-up that all features might not match, they can further view profile to know the person better before connecting.
+<br></br>
+
 <p>
-    <img src="/Flow-chart.jpg"  />
+    <img src="https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/Nikita/Flow-chart.jpg"  />
 </p>
 
 ## Setup
@@ -35,13 +37,17 @@ $ python app.py
 You can either go to recommender through Webapp  - https://youngold-app.herokuapp.com/ <br></br>
 You can try deployed Recommender through - https://youngold.herokuapp.com/ <br></br>
 While trying on Local Host simply you can open - 127.0.0.1:5000/ in your browser. <br></br>
+
 <br></br>
+
 <p>
-  <img src = "/Screenshot (103).png"  />
+  <img src = "https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/Nikita/Screenshot (103).png"  />
 </p>
+
 <br></br>
+
 <p>
-  <img src = "/Screenshot (105).png"   />
+  <img src = "https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/Nikita/Screenshot (105).png"   />
 </p>
 
 
