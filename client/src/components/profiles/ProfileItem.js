@@ -8,7 +8,8 @@ const ProfileItem = ({
     status,
     company,
     location,
-    skills
+    skills,
+    roomcode
   }
 }) => {
   return (
@@ -16,6 +17,7 @@ const ProfileItem = ({
       <img src={avatar?avatar:im} alt='' className='round-img' />
       <div>
         <h2>{name}</h2>
+        <h3>Room Code : <span className='roomcode'>{roomcode}</span></h3>
         <p>
           {status} {company && <span> at {company}</span>}
         </p>
