@@ -1,0 +1,15 @@
+gunicorn
+numpy == 1.18.0
+pandas
+Flask
+glob3
+pypi
+imutils
+tensorflow
+keras
+keras.applications
+keras.preprocessing
+werkzeug
+gevent
+pymongo
+dnspython
