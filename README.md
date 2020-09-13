@@ -4,7 +4,7 @@
 There are two additional folder that you need to extract while setting it up locally,
 
 1.YounGold (Recommender system folder)
-2.YounGold Chat App (For communication purpose)
+2.YounGold-Chat-Application (For communication purpose folder)
 Run both these folder seperately
 
 NOTE:Readme for running both this folder seperately in your local system is available inside it.
