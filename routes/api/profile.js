@@ -57,6 +57,7 @@ router.post(
       company,
       location,
       website,
+      roomcode,
       bio,
       skills,
       status,
@@ -71,6 +72,7 @@ router.post(
     const profileFields = {
       user: req.user.id,
       company,
+      roomcode,
       location,
       website: website === '' ? '' : normalize(website, { forceHttps: true }),
       bio,

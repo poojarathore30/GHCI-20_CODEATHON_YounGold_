@@ -9,6 +9,7 @@ const ProfileTop = ({
     location,
     website,
     social,
+    roomcode,
     user: { name, avatar }
   }
 }) => {
@@ -16,6 +17,7 @@ const ProfileTop = ({
     <div className='profile-top bg-primary p-2'>
       <img className='round-img my-1' src={avatar?avatar:im} alt='' />
       <h1 className='large'>{name}</h1>
+      <h3>Join Room Code : <span className='roomcode'>{roomcode}</span> to chat privately</h3>
       <p className='lead'>
         {status} {company && <span> at {company}</span>}
       </p>
