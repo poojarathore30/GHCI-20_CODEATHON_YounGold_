@@ -213,7 +213,7 @@ Here you go :)
 > [Link To the final Deployed Application(Integration of chat app and recommender system along with the full stack web app](https://youngold-app.herokuapp.com/)
 
 ## Demo of the Project :rocket: :100:
-![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/aa.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/aa.PNG)
 ![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/f.PNG)
 ![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/b.PNG)
 ![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/a.PNG)
