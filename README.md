@@ -214,11 +214,11 @@ Here you go :)
 
 ## Demo of the Project :rocket: :100:
 ![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/aa.PNG)
-![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/f.PNG)
-![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/b.PNG)
-![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/a.PNG)
-![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/d.PNG)
-![](https://github.com/poojarathore30/GHCI-20_CODEATHON_YounGold_/blob/master/images/e.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/f.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/b.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/a.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/d.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/e.PNG)
 
 
 
