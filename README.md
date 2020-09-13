@@ -1,3 +1,20 @@
+# GHCI'20 Codeathon
+## Team: BrainStabilizer
+### Web App Name: YounGold
+
+```
+Problem Statement:Provide solutions for post-COVID-19 life
+Solution: Built by team Brainstabilizer
+
+A Social networking application named as YOUNGOLD to connect all people of different age groups
+specially connecting Young one with Old one to solve problems because of
+which people are stressed and depressed.
+
+Proposed Solution:
+In Post Covid life people will be facing mental health issues due to selfisolation,financial crisis, career uncertainty social- distancing, fear,anxiety, etc.There are many people who are struggling and wish to share their problems with the people who have faced similar problems and are experienced in their field of interest to seek for guidance andcareer paths. Also,There are many elderly retired professionals who arefacing loneliness in this Pandemic and who have ample time and wish to guide young people in their spare time.
+
+```
+
 # Prerequisite 
 ## Packages must be installed before start writing the code
 ```bash
