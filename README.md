@@ -15,8 +15,8 @@ In Post Covid life people will be facing mental health issues due to selfisolati
 
 ```
 
-# Prerequisite 
-## Packages must be installed before start writing the code
+# Prerequisite
+
 ```bash
 There are two additional folder that you need to extract while setting it up locally,
 
@@ -29,6 +29,8 @@ NOTE:Readme for running both this folder seperately in your local system is avai
 #### Except these two, below are the instruction to run the full stack website in your local system.
  
 ##### You are good to go now :)
+
+## Packages must be installed before start writing the code
 
 
 ```bash
