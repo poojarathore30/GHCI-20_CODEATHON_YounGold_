@@ -77,9 +77,9 @@ You're good to go :)
 > [Link to deployed chat-App can be found here. :sunglasses:	](https://youngold-chat.herokuapp.com/)
 
 ## Demo of the Chat-App :rocket: :100:
-![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/tree/master/images/chat/a.PNG)
-![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/tree/master/images/chat/c.PNG)
-![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/tree/master/images/chat/b.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/chat/a.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/chat/c.PNG)
+![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/chat/b.PNG)
 
 
 
