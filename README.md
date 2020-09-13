@@ -1,16 +1,15 @@
 # Prerequisite 
 ## Packages must be installed before start writing the code
+```bash
 ### There are two additional folder that you need to extract while setting it up locally,
-
-``bash
 1.YounGold (Recommender system folder)
 2.YounGold Chat App(For communication purpose)
 Run both these folder seperately
 ## NOTE:Readme for running both this folder seperately in your local system is available inside it.
  ```
- Except these two, below are the instruction to run the full stack website in your local system.
+#### Except these two, below are the instruction to run the full stack website in your local system.
  
- You are good to go now :)
+##### You are good to go now :)
 
 
 ```bash
