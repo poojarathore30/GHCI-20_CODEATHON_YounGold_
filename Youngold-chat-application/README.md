@@ -1,6 +1,8 @@
 # YounGold CHAT APPLICATION USING SOCKET.IO
 > Provide solutions for post-COVID-19 life. A Social networking application to connect all people of different age groups specifically  connecting Young ones with Old ones to solve problems because of which people are stressed and depressed.
 
+> To help facilitate private communication YounGold chat App provides private rooms to discuss on solutions and gain motivation to problems affecting mental health of an individual.
+
 # Prerequisite 
 ## Project Local Setup 👩‍💻
 
