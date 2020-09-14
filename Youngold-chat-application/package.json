@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "server",
-=======
-  "name": "youngold",
->>>>>>> 253e7003d9799ca0a613d70c511b9ac1692ca06d
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,15 +10,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client-user && npm run build --prefix client-user"
   },
-<<<<<<< HEAD
   "keywords": [],
   "author": "",
   "license": "ISC",
-=======
-  "author": "Pooja Rathore",
-  "license": "MIT",
-  
->>>>>>> 253e7003d9799ca0a613d70c511b9ac1692ca06d
   "dependencies": {
     "concurrently": "^5.3.0",
     "cors": "^2.8.5",
