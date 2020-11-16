@@ -1,4 +1,4 @@
-# GHCI'20 Codeathon
+# GHCI' 20 Codeathon
 ## Team: BrainStabilizer
 ### Web App Name: YounGold
 
