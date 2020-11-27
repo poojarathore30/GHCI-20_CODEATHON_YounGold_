@@ -18,7 +18,7 @@ In Post Covid life people will be facing mental health issues due to selfisolati
 # Prerequisite
 
 ```bash
-There are two additional folder that you need to extract while setting it up locally,
+There are two additional folder that you need to extract while setting it up locally ,
 
 1.YounGold (Recommender system folder)
 2.YounGold-Chat-Application (For communication purpose folder)
