@@ -1,4 +1,6 @@
 # GHCI' 20 Codeathon
+> [Link To the final Deployed Application(Integration of chat app and recommender system along with the full stack web app](https://youngold-app.herokuapp.com/)
+
 ## Team: BrainStabilizer
 ### Web App Name: YounGold
 
@@ -210,7 +212,6 @@ This full Stack App has integrated with the other two App as well, i.e
 2.Recommender System
 Here you go :)
 ```
-> [Link To the final Deployed Application(Integration of chat app and recommender system along with the full stack web app](https://youngold-app.herokuapp.com/)
 
 ## Demo of the Project :rocket: :100:
 ![](https://github.com/Puja7629/GHCI-20_CODEATHON_YounGold_/blob/master/images/aa.PNG)
